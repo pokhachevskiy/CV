@@ -1,0 +1,106 @@
+\documentclass[10pt,a4paper]{cv}
+\geometry{left=1cm,right=11.2cm,marginparwidth=9cm,marginparsep=1.2cm,top=1cm,bottom=1cm}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato}
+\usepackage{hyperref}
+
+\definecolor{VividPurple}{HTML}{0085c3}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+\usepackage{xcolor}
+\hypersetup{
+    colorlinks,
+    linkcolor={VividPurple},
+    citecolor={VividPurple},
+    urlcolor={VividPurple}
+}
+
+
+% itemize and rating marker
+% for \cvskill 
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+
+%\usepackage{hyperref}
+
+\begin{document}
+%
+\name{Daniil Pokhachevskiy}
+\tagline{Curriculum Vitae}
+\photo{3.5cm}{main}
+%
+\personalinfo{%
+  \begin{minipage}{4cm}
+  	\email{\href{mailto:daniek9898@gmail.com}{\textcolor{SlateGrey}{daniek9898@gmail.com}}}
+   
+   \github{\href{https://github.com/gkorepanov}{\textcolor{SlateGrey}{github.com/pokhachevskiy}}}
+   
+   \end{minipage}%
+   \hfill%
+   \begin{minipage}{5.5cm}
+   
+   \phone{+7-977-425-42-69}
+   \location{Russia, Moscow}
+  \end{minipage}
+ 
+
+	
+}
+	
+
+\begin{adjustwidth}{}{-10cm}
+\makecvheader
+\end{adjustwidth}
+
+
+\cvsection[page1sidebar]{Education}
+
+\cvevent{}{Comprehensive school}{2004 -- 2013}{Russia, Ivanovo}
+\cvevent{}{Lyceum 33}{2013 -- 2015}{Russia, Ivanovo}
+\divider
+\cvevent{}{\href{https://mipt.ru/english/}{Moscow Institute of Physics and Technology}}{2015 -- ongoing}{Russia, Dolgoprudny}
+
+\cvsection{Relevant courses}
+\cvsubsection{Fundamentals at MIPT}
+\begin{itemize}
+\item General Maths (Linear Algebra, Mathematical Analysis, Theory of Probability, Discrete Analysis, Complex Analysis, Differential Equations)
+\item General Physics (Mechanics, Thermodynamics, Electricity, Optics, Atomic Physics)
+\item Engineering, CAD, Computer Science, FPGA
+\end{itemize}
+
+\cvsubsection{Advanced C programming in UNIX environment}
+\cvsubsection{Applied C, Asm, Python programming}
+
+\cvsubsection{Intel iLab: from C to C++}
+by I. R. Dedinsky, leading lecturer of Intel iLab
+
+\cvsubsection{Tinkoff Fintech School: iOS Development}
+by A.Zverev, I. Kharabet et al.
+
+\cvsection{Experience}
+\begin{itemize}
+\item \cvsubsection{Electrical engineering}
+AVR, STM32 microcontrollers and devices using them 
+\item \cvsubsection{University courses}
+multiple projects within (e.g. \href{https://github.com/pokhachevskiy/TinkoffChat}{Tinkoff Chat})
+\item  \cvsubsection{Data Science}
+Finished a Coursera course "Math and Python for Data Science" (\href{https://www.coursera.org/account/accomplishments/certificate/CMNH9NCQQ7TD}{Coursera})
+\end{itemize}
+\cvsection{Interests}
+Maths \& science, coding, 
+\\Sport (track and field athletics, diving, swimming)
+
+\clearpage
+
+\cvsection[page2sidebar]{What I'm looking for}
+I would be happy to apply for any job which lets possible improvement of work process through going deeper into subject. I would like to improve my technical and communication skills through work. Particularly I’m most interested in IT \& Mobile Development sphere, which is my strong point.
+
+\end{document}
